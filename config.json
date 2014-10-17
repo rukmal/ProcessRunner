@@ -1,0 +1,6 @@
+{
+	"passphrase": "test",
+	"scripts": [
+		"test.sh", "test.sh"
+	]
+}
