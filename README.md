@@ -7,11 +7,11 @@ Node.js + Express web application designed to be used with GitHub Webhooks, to a
 - Fill out the ```config.json``` file, as shown in the example below.
 ```json
 {
-"passphrase": "enter-passphrase-here",
-"scripts": [
-		"/path/to/script.sh",
-		"/path/to/second/script.sh"
-	]
+	"passphrase": "enter-passphrase-here",
+	"scripts": [
+			"/path/to/script.sh",
+			"/path/to/second/script.sh"
+		]
 }
 ```
 
