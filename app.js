@@ -22,6 +22,8 @@ app.use(methodOverride());
 
 var router = express.Router();
 
+// Mapping POST route to '/' to
+// run script
 router.route('/')
 	.post(function (req, res) {
 		if (req.body.key === app.get('config').key) {
@@ -39,6 +41,8 @@ router.route('/')
 		}
 	});
 
+// Mapping GET route to '/reload-config'
+// to reload the configuration file
 router.route('/reload-config')
 	.post(function (req, res) {
 		if (req.body.key === app.get('config').key) {
