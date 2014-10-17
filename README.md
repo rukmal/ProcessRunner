@@ -19,12 +19,12 @@ There are two endpoints for the API:
 
 #### Endpoint: ```/```
 ##### Method: ```POST```
-##### Parameters: ```passphrase```
+##### Parameters: ```key```
 ##### Description: This endpoint triggers the scripts to be run
 
 #### Endpoint ```/reload-config```
 ##### Method: ```POST```
-##### Parameters: ```passphrase```
+##### Parameters: ```key```
 ##### Description: This endpoint makes the application reload the configuration file
 
 ## Contact
